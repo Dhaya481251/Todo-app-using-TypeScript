@@ -1,0 +1,56 @@
+<<<<<<< HEAD
+{
+  "compilerOptions": {
+    "target": "ES2020",                     // Use modern JavaScript features
+    "module": "CommonJS",                   // Node.js module system
+    "rootDir": ".",                         // Your source files are at the root
+    "outDir": "./dist",                     // Compiled JS output
+    "strict": true,                         // Enable all strict type-checking
+    "esModuleInterop": true,                // Allow default imports from CommonJS
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true,
+    "moduleResolution": "node",             // Resolve modules like Node.js
+    "resolveJsonModule": true,              // Allow importing JSON files
+    "types": ["node", "express"],           // Include Node and Express types
+    "typeRoots": ["./node_modules/@types"]  // Where to find type definitions
+  },
+  "include": [
+    "index.ts",
+    "models/**/*.ts",
+    "routes/**/*.ts"
+  ],
+  "exclude": [
+    "node_modules",
+    "dist",
+    "views",
+    "public"
+  ]
+=======
+{
+  "compilerOptions": {
+    "target": "ES2020",                     // Use modern JavaScript features
+    "module": "CommonJS",                   // Node.js module system
+    "rootDir": ".",                         // Your source files are at the root
+    "outDir": "./dist",                     // Compiled JS output
+    "strict": true,                         // Enable all strict type-checking
+    "esModuleInterop": true,                // Allow default imports from CommonJS
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true,
+    "moduleResolution": "node",             // Resolve modules like Node.js
+    "resolveJsonModule": true,              // Allow importing JSON files
+    "types": ["node", "express"],           // Include Node and Express types
+    "typeRoots": ["./node_modules/@types"]  // Where to find type definitions
+  },
+  "include": [
+    "index.ts",
+    "models/**/*.ts",
+    "routes/**/*.ts"
+  ],
+  "exclude": [
+    "node_modules",
+    "dist",
+    "views",
+    "public"
+  ]
+>>>>>>> d31903d464f6e4f09a0b68cf5deb5aa18aceda3d
+}
